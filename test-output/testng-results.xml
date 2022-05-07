@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="7" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-03T11:42:10 IST" name="HybridFramework" finished-at="2022-05-03T11:43:05 IST" duration-ms="55708">
+    <groups>
+    </groups>
+    <test started-at="2022-05-03T11:42:10 IST" name="guru99BankingApplication Test" finished-at="2022-05-03T11:43:05 IST" duration-ms="55708">
+      <class name="com.guru99.qa.pagesTest.LoginPageTest_DDT">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.guru99.qa.pagesTest.LoginPageTest_DDT@66d3eec0]" started-at="2022-05-03T11:42:22 IST" name="setUp" finished-at="2022-05-03T11:42:28 IST" duration-ms="6271" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginPageDDT(java.lang.String,java.lang.String)[pri:0, instance:com.guru99.qa.pagesTest.LoginPageTest_DDT@66d3eec0]" started-at="2022-05-03T11:42:30 IST" name="loginPageDDT" data-provider="loginPageDDT" finished-at="2022-05-03T11:42:33 IST" duration-ms="3800" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr399261]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nydeqYr]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageDDT -->
+        <test-method signature="loginPageDDT(java.lang.String,java.lang.String)[pri:0, instance:com.guru99.qa.pagesTest.LoginPageTest_DDT@66d3eec0]" started-at="2022-05-03T11:42:33 IST" name="loginPageDDT" data-provider="loginPageDDT" finished-at="2022-05-03T11:42:38 IST" duration-ms="4461" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr399261]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nydeqYr]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageDDT -->
+        <test-method signature="loginPageDDT(java.lang.String,java.lang.String)[pri:0, instance:com.guru99.qa.pagesTest.LoginPageTest_DDT@66d3eec0]" started-at="2022-05-03T11:42:38 IST" name="loginPageDDT" data-provider="loginPageDDT" finished-at="2022-05-03T11:42:42 IST" duration-ms="4392" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr399261]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nydeqYr]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageDDT -->
+        <test-method signature="loginPageDDT(java.lang.String,java.lang.String)[pri:0, instance:com.guru99.qa.pagesTest.LoginPageTest_DDT@66d3eec0]" started-at="2022-05-03T11:42:42 IST" name="loginPageDDT" data-provider="loginPageDDT" finished-at="2022-05-03T11:42:47 IST" duration-ms="4331" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr399261]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nydeqYr]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageDDT -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.guru99.qa.pagesTest.LoginPageTest_DDT@66d3eec0]" started-at="2022-05-03T11:42:47 IST" name="tearDown" finished-at="2022-05-03T11:42:47 IST" duration-ms="432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.guru99.qa.pagesTest.LoginPageTest_DDT -->
+      <class name="com.guru99.qa.pagesTest.NewCustomerTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.guru99.qa.pagesTest.NewCustomerTest@1e04fa0a]" started-at="2022-05-03T11:42:47 IST" name="setUp" finished-at="2022-05-03T11:42:54 IST" duration-ms="6756" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC_003()[pri:0, instance:com.guru99.qa.pagesTest.NewCustomerTest@1e04fa0a]" started-at="2022-05-03T11:42:54 IST" name="TC_003" finished-at="2022-05-03T11:43:03 IST" duration-ms="8804" status="FAIL">
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[unexpected alert open: {Alert text : Email Address Already Exist !!}
+  (Session info: chrome=100.0.4896.127): Email Address Already Exist !!
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'DESKTOP-FNNCM0Q', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\ankur\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49991}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4fc957a5419ec15eeac1cb14e746b2de]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Email Address Already Exist !!}
+  (Session info: chrome=100.0.4896.127): Email Address Already Exist !!
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'DESKTOP-FNNCM0Q', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\ankur\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49991}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4fc957a5419ec15eeac1cb14e746b2de
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.getPageSource(RemoteWebDriver.java:438)
+at com.guru99.qa.pagesTest.NewCustomerTest.TC_003(NewCustomerTest.java:52)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_003 -->
+        <test-method signature="TC_004()[pri:0, instance:com.guru99.qa.pagesTest.NewCustomerTest@1e04fa0a]" started-at="2022-05-03T11:43:03 IST" name="TC_004" finished-at="2022-05-03T11:43:04 IST" duration-ms="1459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_004 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.guru99.qa.pagesTest.NewCustomerTest@1e04fa0a]" started-at="2022-05-03T11:43:04 IST" name="tearDown" finished-at="2022-05-03T11:43:05 IST" duration-ms="1187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.guru99.qa.pagesTest.NewCustomerTest -->
+      <class name="com.guru99.qa.pagesTest.LoginPageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.guru99.qa.pagesTest.LoginPageTest@4738a206]" started-at="2022-05-03T11:42:10 IST" name="setUp" finished-at="2022-05-03T11:42:18 IST" duration-ms="8016" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC_001()[pri:-1, instance:com.guru99.qa.pagesTest.LoginPageTest@4738a206]" started-at="2022-05-03T11:42:18 IST" name="TC_001" finished-at="2022-05-03T11:42:18 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_001 -->
+        <test-method signature="TC_002()[pri:1, instance:com.guru99.qa.pagesTest.LoginPageTest@4738a206]" started-at="2022-05-03T11:42:18 IST" name="TC_002" finished-at="2022-05-03T11:42:21 IST" duration-ms="3131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_002 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.guru99.qa.pagesTest.LoginPageTest@4738a206]" started-at="2022-05-03T11:42:21 IST" name="tearDown" finished-at="2022-05-03T11:42:22 IST" duration-ms="684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.guru99.qa.pagesTest.LoginPageTest -->
+    </test> <!-- guru99BankingApplication Test -->
+  </suite> <!-- HybridFramework -->
+</testng-results>

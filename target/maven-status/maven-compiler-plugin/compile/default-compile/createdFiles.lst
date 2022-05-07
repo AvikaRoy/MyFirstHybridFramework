@@ -1,0 +1,7 @@
+com\guru99\qa\pages\LoginPage.class
+com\guru99\qa\utilities\Reporting.class
+com\guru99\qa\base\TestBase.class
+com\guru99\qa\pages\NewCustomerPage.class
+com\guru99\qa\utilities\ExcelUtil.class
+com\guru99\qa\utilities\ListenerTest.class
+com\guru99\qa\utilities\ReadConfig.class
